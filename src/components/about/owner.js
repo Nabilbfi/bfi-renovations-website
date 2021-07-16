@@ -1,17 +1,20 @@
 import React from "react"
 import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
-import { Section, Container, Flex } from "../layoutComponents"
+import { Section, Container, FlexMobileOpp } from "../layoutComponents"
 
 const Text = styled.div`
   align-self: center;
+  @media screen and (max-width: 48em) {
+    margin-bottom: var(--spacer-lg);
+  }
 `
 
 export default function Owner() {
   return (
     <Section>
       <Container>
-        <Flex>
+        <FlexMobileOpp className="">
           <StaticImage
             src={"../../images/company/nabil-khatib.png"}
             placeholder="blurred"
@@ -20,10 +23,9 @@ export default function Owner() {
           <Text>
             <div className="spacing">
               <div>
-                <p className="title--top">bfi renovations</p>
-                <p className="title">meet our owner</p>
+                <p className="title--top">meet our owner</p>
+                <p className="title">nabil khatib</p>
               </div>
-              <p className="bold upper">nabil khatib</p>
               <p>
                 With a diverse set of skills including acting and cooking, Nabil
                 Khatib learned from the best from growing up in a family that
@@ -41,7 +43,7 @@ export default function Owner() {
               </p>
             </div>
           </Text>
-        </Flex>
+        </FlexMobileOpp>
       </Container>
     </Section>
   )

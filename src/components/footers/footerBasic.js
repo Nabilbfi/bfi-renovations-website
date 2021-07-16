@@ -166,9 +166,9 @@ export default function Footer() {
     <div className="spacing-lg">
       <FooterWrapper className="spacing">
         <Container className="spacing-lg">
-          <center>
+          {/* <center>
             <FacebookFeed />
-          </center>
+          </center> */}
           <PaymentMethods />
           <Flex>
             <FlexItem>
@@ -228,8 +228,7 @@ export default function Footer() {
             <FlexItem className="spacing">
               <p className="heading bold upper">service areas</p>
               <ul>
-                <li>Ottawa, ON</li>
-                <li>Surrounding Areas</li>
+                <li>* full list of areas will go here *</li>
               </ul>
             </FlexItem>
           </Flex>

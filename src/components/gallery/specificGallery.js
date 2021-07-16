@@ -26,7 +26,7 @@ export default function SpecificGallery(props) {
           {" "}
           <span className="bold"> location:</span> {props.location}
         </p>
-        <Description>{props.description}</Description>
+        {/* <Description>{props.description}</Description> */}
       </div>
     </Wrapper>
   )

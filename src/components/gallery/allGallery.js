@@ -44,8 +44,8 @@ const StyledLink = styled(props => <Link {...props} />)`
 `
 
 const Text = styled.div`
-  background: var(--clr-light-secondary);
-  padding: 1em;
+  /* background: var(--clr-light-secondary);
+  padding: 1em; */
 `
 
 const Button = styled.p`

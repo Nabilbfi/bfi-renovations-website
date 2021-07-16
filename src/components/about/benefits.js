@@ -37,7 +37,7 @@ export default function Benefits() {
   return (
     <Section>
       <Container>
-        <Flex>
+        <Flex className="spacing-lg">
           <TextWrapper className="spacing">
             <div>
               <p className="title--top">25+ Years Experience</p>
@@ -48,7 +48,7 @@ export default function Benefits() {
               services to Ottawa and surrounding areas. From electrical and
               plumbing work to custom carpentry, we have you covered. Have a
               kitchen or bathroom that needs to be renovated? Putting in new
-              flooring? Need a new deck or fencing? Work with the best, and
+              flooring? Need a new deck or fencing? Work with the best, and{" "}
               <a className="inline-link" href="tel: 613-620-4340">
                 call us today!
               </a>{" "}
