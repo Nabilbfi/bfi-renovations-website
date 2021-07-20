@@ -175,9 +175,9 @@ export default function Footer() {
     <div className="spacing-lg">
       <FooterWrapper className="spacing">
         <Container className="spacing-lg">
-          {/* <center>
+          <center>
             <FacebookFeed />
-          </center> */}
+          </center>
           <PaymentMethods />
           <Flex>
             <FlexItem>
@@ -231,6 +231,9 @@ export default function Footer() {
                 </li>
                 <li>
                   <StyledLink to="/contact">contact</StyledLink>
+                </li>
+                <li>
+                  <StyledLink to="/test">test</StyledLink>
                 </li>
               </ul>
             </FlexItem>

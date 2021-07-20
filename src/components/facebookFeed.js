@@ -3,41 +3,28 @@ import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
 import FindUsFB from "../images/socials/find-us-on-facebook.svg"
 
-const ImgWrapper = styled.div`
-  .find-us-img {
-    width: 500px;
+const Frame = styled.iframe`
+  @media screen and (max-width: 36em) {
+    width: 250px;
+  }
+  @media screen and (max-width: 18em) {
+    width: 180px;
   }
 `
 
 export default function FacebookFeed() {
   return (
     <div>
-      {/* <ImgWrapper>
-        <StaticImage
-          src={"../images/socials/find-us-on-facebook.svg"}
-          alt=""
-          className="find-us-img"
-          placeholder="blurred"
-        />
-      </ImgWrapper> */}
-      <div
-        className="fb-page"
-        data-href="https://www.facebook.com/bfirenovations/"
-        data-tabs
-        data-width="500"
-        data-height="300"
-        data-small-header="false"
-        data-adapt-container-width="true"
-        data-hide-cover="false"
-        data-show-facepile="true"
-      >
-        <blockquote
-          cite="https://www.facebook.com/bfirenovations/"
-          className="fb-xfbml-parse-ignore"
-        >
-          <a href="https://www.facebook.com/bfirenovations/">BFI Renovations</a>
-        </blockquote>
-      </div>
+      <Frame
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBFIRenovations%2F&tabs&width=500&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+        width={500}
+        height={130}
+        style={{ border: "none", overflow: "hidden" }}
+        scrolling="no"
+        frameBorder={0}
+        allowFullScreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+      />
     </div>
   )
 }
