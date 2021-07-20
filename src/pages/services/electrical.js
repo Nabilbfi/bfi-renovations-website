@@ -11,7 +11,7 @@ export default function Electrical() {
         <div>
           <p>prioritizing your safety in ottawa</p>
           <h1>
-            electrical <br /> services
+            ottawa electrical <br /> services
           </h1>
           <ul>
             <li>lighting</li>

@@ -23,14 +23,12 @@ export default function Gallery() {
       <Section>
         <Container className="spacing-lg">
           <Text className="spacing">
-            <h1 className="title">our home renovations gallery</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
-              nostrum optio unde animi ipsum eius officiis dolores perspiciatis,
-              libero, similique, culpa magnam laudantium? Nisi ab assumenda
-              sunt. Itaque aperiam cumque quod laborum beatae quis deleniti
-              voluptatum, reprehenderit, doloribus error tempore?
-            </p>
+            <h1 className="title">our ottawa home renovations gallery</h1>
+            {/* <p>
+              Our Ottawa home renovation services include plumbing and
+              electrical work, custom carpentry, and interior and exterior
+              renovations. 
+            </p> */}
           </Text>
           <AllGallery />
         </Container>

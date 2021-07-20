@@ -26,7 +26,7 @@ export default function FormContact() {
             renovation. Fill out the form below to get started:
           </p>
         </Text>
-        <FlexMobileOpp className="spacing-lg">
+        <Flex>
           {/* flex item 1 */}
           <div>
             <form
@@ -100,7 +100,7 @@ export default function FormContact() {
           </div>
           {/* flex item 2 */}
           <ContactInfo />
-        </FlexMobileOpp>
+        </Flex>
       </Container>
     </Section>
   )

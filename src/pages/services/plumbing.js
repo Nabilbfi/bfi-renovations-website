@@ -11,7 +11,7 @@ export default function Plumbing() {
         <div>
           <p>prioritizing your safety in ottawa</p>
           <h1>
-            plumbing <br /> services
+            ottawa plumbing <br /> services
           </h1>
           <ul>
             <li>full-service bathroom and kitchen plumbing</li>

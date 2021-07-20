@@ -11,7 +11,7 @@ export default function Carpentry() {
         <div>
           <p>prioritizing your safety in ottawa</p>
           <h1>
-            carpentry <br /> services
+            ottawa carpentry <br /> services
           </h1>
           <ul>
             <li>cabinets</li>

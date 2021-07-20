@@ -43,7 +43,9 @@ export default function Hero(props) {
             Fully trained & licensed home service professionals that deliver
             results you can count on!
           </p>
-          <ButtonPrimary to="/">request a quote now &#8594;</ButtonPrimary>
+          <ButtonPrimary to="/contact">
+            request a quote now &#8594;
+          </ButtonPrimary>
         </Text>
       </Container>
     </HeroWrapper>

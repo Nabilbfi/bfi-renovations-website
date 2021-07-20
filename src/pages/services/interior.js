@@ -11,7 +11,7 @@ export default function Interior() {
         <div>
           <p>prioritizing your safety in ottawa</p>
           <h1>
-            interior renovation <br /> services
+            interior renovation <br /> services ottawa
           </h1>
           <ul>
             <li>paint</li>

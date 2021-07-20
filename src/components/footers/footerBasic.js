@@ -11,6 +11,8 @@ import { FaPhoneAlt, FaRegClock } from "react-icons/fa"
 import { SiMailDotRu } from "react-icons/si"
 import { IoLocationSharp } from "react-icons/io5"
 
+import AaronTonnerWebSolutionsLogo from "../../images/aaron-tonner-web-solutions-logo.svg"
+
 // social icons
 import Logo from "../../images/logo.svg"
 import Facebook from "../../images/socials/facebook.svg"
@@ -38,7 +40,7 @@ const LogoContainer = styled.div`
   display: flex;
   align-items: center;
   img {
-    width: 50px;
+    width: 150px;
   }
   & > * + * {
     margin-left: 5px;
@@ -152,8 +154,15 @@ const StyledLink = styled(props => <Link {...props} />)`
 `
 
 const Author = styled.div`
-  background: var(--clr-light-secondary);
   color: var(--txt-dark-secondary);
+
+  div {
+    display: flex;
+    gap: 0.5em;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+  }
 
   a {
     display: inline;
@@ -198,7 +207,7 @@ export default function Footer() {
                 </li>
               </ul>
               <ul>
-                <li>{Info.city1} & Surrounding areas</li>
+                <li>{Info.city1}</li>
                 <li>Canada</li>
               </ul>
             </FlexItem>
@@ -228,7 +237,12 @@ export default function Footer() {
             <FlexItem className="spacing">
               <p className="heading bold upper">service areas</p>
               <ul>
-                <li>* full list of areas will go here *</li>
+                <li>
+                  We provide home renovation services in Ottawa, ON and
+                  surrounding areas such as Kanata, Nepean, Carleton Place,
+                  Arnprior, Stittsville, Orleans, Fitzroy Harbour, Carp,
+                  Dunrobin, Kemptville, Barrhaven, Westboro, and more.
+                </li>
               </ul>
             </FlexItem>
           </Flex>
@@ -251,7 +265,7 @@ export default function Footer() {
             <div>
               <LogoContainer>
                 <img src={Logo} alt="" />
-                <h3 className="heading bold">{Info.name}</h3>
+                {/* <h3 className="heading bold">{Info.name}</h3> */}
               </LogoContainer>
             </div>
             <ul>
@@ -278,14 +292,14 @@ export default function Footer() {
           </Copyright>
           <hr />
         </Container>
-        <Author className="right">
+        <Author>
           <Container>
-            <p>
-              website by:{" "}
+            <div>
+              {/* <p>website by: </p> */}
               <a target="_popup" href="https://www.aarontonner.com">
-                www.aarontonner.com
+                <img src={AaronTonnerWebSolutionsLogo} alt="" />
               </a>
-            </p>
+            </div>
           </Container>
         </Author>
       </FooterWrapper>

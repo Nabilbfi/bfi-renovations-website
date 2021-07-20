@@ -11,7 +11,7 @@ export default function Exterior() {
         <div>
           <p>prioritizing your safety in ottawa</p>
           <h1>
-            exterior renovation <br /> services
+            exterior renovation <br /> services ottawa
           </h1>
           <ul>
             <li>decks</li>

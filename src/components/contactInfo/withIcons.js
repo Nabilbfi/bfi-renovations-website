@@ -8,6 +8,16 @@ import { FaPhoneAlt, FaRegClock } from "react-icons/fa"
 import { SiMailDotRu } from "react-icons/si"
 import { IoLocationSharp } from "react-icons/io5"
 
+const device = {
+  md: "48em",
+}
+
+const ContactInfoWrapper = styled.div`
+  @media screen and (max-width: ${device.md}) {
+    margin-top: var(--spacer-lg);
+  }
+`
+
 const List = styled.ul`
   padding: 0;
   margin: var(--spacer) 0 0 0;
@@ -26,7 +36,7 @@ const Flex = styled.div`
 export default function WithIcons() {
   return (
     <div className="spacing-lg">
-      <div>
+      <ContactInfoWrapper>
         <p className="body--large">{Info.name}</p>
         <List className="spacing">
           <li>
@@ -58,7 +68,7 @@ export default function WithIcons() {
             </Flex>
           </li>
         </List>
-      </div>
+      </ContactInfoWrapper>
       <PaymentMethods />
     </div>
   )
