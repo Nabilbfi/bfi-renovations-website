@@ -87,7 +87,7 @@ export default function Benefits() {
             </List>
           </TextWrapper>
           <StaticImage
-            src={"../../images/company/ph.png"}
+            src={"../../images/company/benefits.png"}
             placeholder="blurred"
             alt="home renovations ottawa"
           />

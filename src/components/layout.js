@@ -9,7 +9,7 @@ import FeaturedTestimonial from "./testimonials/featuredTestimonial"
 import CallToAction from "./callToActions/callToAction"
 import FacebookFeed from "./facebookFeed"
 
-import ActionImg from "../images/ph.png"
+import ActionImg from "../images/call-to-action.png"
 
 export default function Layout({ children }) {
   return (
