@@ -15,16 +15,6 @@ export default function Layout({ children }) {
   return (
     <>
       <SEO />
-      <Helmet>
-        <script
-          async={true}
-          defer={true}
-          crossOrigin="anonymous"
-          crossorigin="anonymous"
-          src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
-          nonce="k2bkwVkX"
-        ></script>
-      </Helmet>
       <HeaderBasic />
       <main>{children}</main>
       <FeaturedTestimonial />
