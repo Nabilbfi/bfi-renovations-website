@@ -5,11 +5,12 @@ import Mastercard from "../images/payment/mastercard.svg"
 import Visa from "../images/payment/visa.svg"
 import Amex from "../images/payment/amex.svg"
 import Interac from "../images/payment/interac.svg"
-import Cash from "../images/payment/cash.png"
+import Cash from "../images/payment/cash.svg"
 import Check from "../images/payment/check.svg"
 
 const Flex = styled.div`
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   & > * + * {
     margin-left: 5px;
@@ -17,6 +18,7 @@ const Flex = styled.div`
 
   img {
     width: 40px;
+    height: 100%;
   }
 `
 

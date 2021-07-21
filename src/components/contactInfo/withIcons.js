@@ -48,7 +48,7 @@ export default function WithIcons() {
           <li>
             <Flex>
               <FaPhoneAlt className="accent" />
-              <a className=" italics" href="tel: ">
+              <a className=" italics" href="tel: 613-620-4340">
                 {Info.tel1}
               </a>
             </Flex>
@@ -56,7 +56,7 @@ export default function WithIcons() {
           <li>
             <Flex>
               <SiMailDotRu className="accent" />
-              <a className=" italics" href="mailto:">
+              <a className=" italics" href="mailto: bfirenovations.ca">
                 {Info.mail1}
               </a>
             </Flex>
