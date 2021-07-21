@@ -21,6 +21,11 @@ export default function Reviews() {
         <Container>
           <GridTwo>
             <SingleTestimonial
+              location="Kanata, ON"
+              service="handyman services"
+              testimonial="Nabil is very professional and friendly.  He arrived on time and the work was done to our standards and specifications of what we wanted done. He replaced our front entrance floor with tile, put down baseboards and quarter round and replaced several screens in the windows and a door in the home. He is multifaceted and his expertise shows in his work. We would recommend him for anything you would need done in your home."
+            />
+            <SingleTestimonial
               location="Ottawa, ON"
               service="handyman services"
               testimonial="Omar is a very nice young man and was very friendly and helpful."

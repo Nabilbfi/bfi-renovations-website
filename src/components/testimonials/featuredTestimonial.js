@@ -38,10 +38,15 @@ export default function FeaturedTestimonial() {
               <Review className="spacing">
                 <Stars />
                 <p>
-                  "Loved Nabil. Great guy. Explained everything he did before
-                  starting. Quick to call and easy to reach. Highly recommend."
+                  "Nabil is very professional and friendly. He arrived on time
+                  and the work was done to our standards and specifications of
+                  what we wanted done. He replaced our front entrance floor with
+                  tile, put down baseboards and quarter round and replaced
+                  several screens in the windows and a door in the home. He is
+                  multifaceted and his expertise shows in his work. We would
+                  recommend him for anything you would need done in your home."
                 </p>
-                <Avatar company="home owner in Ottawa" />
+                <Avatar company="home owner in Kanata" />
               </Review>
               <Review className="spacing">
                 <Stars />
