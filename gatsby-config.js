@@ -4,7 +4,8 @@ module.exports = {
     titleTemplate: "%s - BFI Renovations",
     description:
       "BFI Renovations is a top-rated Ottawa Home Renovation contractor servicing Ottawa, ON and surrounding areas. Call 613-620-4340 to get a free quote today!",
-    url: "https://www.example.com", // No trailing slash allowed!
+    url: "https://www.bfirenovations.ca", // No trailing slash allowed!
+    siteUrl: "https://www.bfirenovations.ca",
     image: "/images/logo.svg", // Path to your image you placed in the 'static' folder
     twitterUsername: "",
   },
@@ -15,5 +16,12 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sass`,
+    // sitemap
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        exclude: [`/privacy-policy/`, `/terms-of-use/`],
+      },
+    },
   ],
 }

@@ -232,9 +232,6 @@ export default function Footer() {
                 <li>
                   <StyledLink to="/contact">contact</StyledLink>
                 </li>
-                <li>
-                  <StyledLink to="/test">test</StyledLink>
-                </li>
               </ul>
             </FlexItem>
             <FlexItem className="spacing">
