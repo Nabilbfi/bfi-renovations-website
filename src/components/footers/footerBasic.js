@@ -186,7 +186,7 @@ export default function Footer() {
                 <li>
                   <FlexContact>
                     <FaPhoneAlt className="accent" />
-                    <a className=" italics" href="tel: ">
+                    <a className=" italics" href="tel: 613-620-4340">
                       {Info.tel1}
                     </a>
                   </FlexContact>
@@ -194,7 +194,10 @@ export default function Footer() {
                 <li>
                   <FlexContact>
                     <SiMailDotRu className="accent" />
-                    <a className="italics" href="mailto: ">
+                    <a
+                      className="italics"
+                      href="mailto: bfirenovations@gmail.com"
+                    >
                       {Info.mail1}
                     </a>
                   </FlexContact>
